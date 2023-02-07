@@ -23,7 +23,10 @@ public class Sorter{
             arr[i] = smallerNumber;  
         }  
     }  
-    public static void sort(int[] arry){
+    public static void callInsertionSort(int[] arry){
         insertionSort(arry);
+    }
+    public static void callSelectionSort(int[] arr){
+        selectionSort(arr);
     }
 }
