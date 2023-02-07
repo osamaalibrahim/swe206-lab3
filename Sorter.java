@@ -1,5 +1,5 @@
 public class Sorter{
-    public static <T> void insertionSort(int[] array){
+    public static  void insertionSort(int[] array){
         for(int i=1 ; i < array.length ; i++ ){
             int tmp = array[i];
             for(int j =i-1 ; j >= 0 && tmp < array[j]; j--){
@@ -22,4 +22,7 @@ public class Sorter{
             arr[i] = smallerNumber;  
         }  
     }  
+    public static void sort(int[] arry){
+        insertionSort(arry);
+    }
 }
